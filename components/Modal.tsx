@@ -25,6 +25,7 @@ const Modal: React.FC<ModalProps> = ({
             backdrop-blur-sm 
             fixed 
             inset-0
+            z-50
           " 
         />
         <Dialog.Content

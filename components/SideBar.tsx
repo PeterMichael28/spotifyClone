@@ -48,7 +48,7 @@ const SideBar = ({children, songs}: Props) => {
             bg-black 
             h-full 
             w-[300px]
-            lg:w-[400px] 
+            lg:w-[350px] 
             p-2
         "
         >

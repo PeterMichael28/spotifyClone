@@ -57,7 +57,7 @@ const Header = ({ children, className, account }: Props) => {
     className
    )}
   >
-   <div className={`w-full mb-4 flex items-center justify-between ${account && 'absolute top-0 bg-transparent left-0 pt-7 px-6 z-50'}`}>
+   <div className={`w-full mb-4 flex items-center justify-between ${account && 'absolute top-0 bg-transparent left-0 pt-7 px-6 z-30'}`}>
 
     {/* desktop */}
     <div className="hidden md:flex gap-x-2 items-center relative z-20">
