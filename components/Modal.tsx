@@ -39,7 +39,7 @@ const Modal: React.FC<ModalProps> = ({
             max-h-full 
             h-full 
             md:h-auto 
-            md:max-h-[85vh] 
+            md:max-h-[89vh] 
             w-full 
             md:w-[90vw] 
             z-50
@@ -57,14 +57,14 @@ const Modal: React.FC<ModalProps> = ({
               text-xl 
               text-center 
               font-bold 
-              mb-4
+              mb-2
             "
           >
             {title}
           </Dialog.Title>
           <Dialog.Description 
             className="
-              mb-5 
+              mb-3 
               text-sm 
               leading-normal 
               text-center
