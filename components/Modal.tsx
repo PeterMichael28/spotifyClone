@@ -25,7 +25,7 @@ const Modal: React.FC<ModalProps> = ({
             backdrop-blur-sm 
             fixed 
             inset-0
-            z-50
+            z-40
           " 
         />
         <Dialog.Content
@@ -42,6 +42,7 @@ const Modal: React.FC<ModalProps> = ({
             md:max-h-[85vh] 
             w-full 
             md:w-[90vw] 
+            z-50
             md:max-w-[450px] 
             translate-x-[-50%] 
             translate-y-[-50%] 
